@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/_variables.scss">
+    <link rel="stylesheet" href="css/style.css">
+    <title>css layout project</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="nav-bar">
+                <div class="logo">
+                    <img src="img/logo.png" width="125px" >
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html" class="aw">home</a></li>
+                        <li><a href="product.html" class="aw">product</a></li>
+                        <li><a href="" class="aw">about</a></li>
+                        <li><a href="contact.html" class="aw">contact</a></li>
+                        <li><a href="formul.html" class="aw">account</a></li>
+                    </ul>
+                </nav>
+                <img src="img/cart.png" width="30px" height="30px ">
+                <img src="img/menu.png" class="menu-icon" onclick="MenuToggle()">
+            </div>
+        </div>
+    </div>
+    <div class="container-2">
+        <h2 class="title">All Products</h2>
+        <select>
+            <option>default shorting</option>
+            <option>short by price</option>
+            <option>short by popularity</option>
+            <option>short by rating</option>
+            <option>short by sale</option>
+        </select>
+        <div class="row">
+            <div class="col-4">
+                <img class="item-img"s src="img/product-1.jpg">
+                <h4>Red T-shirt</h4>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <div class="element-desc">
+                    <p class="redstore-price">50.00 DT</p>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <img class="item-img" src="img/product-2.jpg">
+                <h4>Red T-shirt</h4>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <div class="element-desc">
+                    <p class="redstore-price">109.00 DT</p>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="item-img" src="img/product-3.jpg">
+                <h4>Red T-shirt</h4>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <div class="element-desc">
+                    <p class="redstore-price">60.00 DT</p>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="item-img" src="img/product-4.jpg">
+                <h4>Red T-shirt</h4>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                </div>
+                <div class="element-desc">
+                    <p class="redstore-price">40.00 DT</p>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="item-img" src="img/product-5.jpg">
+                <h4>Red T-shirt</h4>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <div class="element-desc">
+                    <p class="redstore-price">150.00 DT</p>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="item-img" src="img/product-6.jpg">
+                <h4>Red T-shirt</h4>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <div class="element-desc">
+                    <p class="redstore-price">25.00 DT</p>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="item-img" src="img/product-7.jpg">
+                <h4>Red T-shirt</h4>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <div class="element-desc">
+                    <p class="redstore-price">2.00 DT</p>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img  class="item-img" src="img/product-8.jpg">
+                <h4>Red T-shirt</h4>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <div class="element-desc">
+                    <p class="redstore-price">250.00 DT</p>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="p-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>
+        <!------------------------->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and Iso mobile phone.</p><br>
+                        <div class="app-logo">
+                            <img src="img/play-store.png">
+                            <img src="img/app-store.png" >
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="img/logo-white.png">
+                        <p>Our purpose Is To Sustainably Make the pleasure and Benfits of sports Accessible to the Many</p>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Useful Links </h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us </h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="cpyright">copyright 2021/2022 - RedStore- GoMyCode</p>
+            </div>
+        </div>
+    
+    <!-------------js--------->
+    <script src="Dom.js"></script>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function MenuToggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight ="200px";
+                }
+            else 
+                {
+                    MenuItems.style.maxHeight ="0px";
+                }
+        }
+    </script>
+</body>
+</html>
